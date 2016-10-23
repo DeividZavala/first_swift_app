@@ -12,6 +12,7 @@
 		AFCA867C1DBA83D500A0E279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCA867B1DBA83D500A0E279 /* Assets.xcassets */; };
 		AFCA867F1DBA83D500A0E279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCA867D1DBA83D500A0E279 /* LaunchScreen.storyboard */; };
 		AFCA86871DBAD10E00A0E279 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA86861DBAD10E00A0E279 /* ProductViewController.swift */; };
+		AFCA86891DBBFFC600A0E279 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA86881DBBFFC600A0E279 /* ContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AFCA867E1DBA83D500A0E279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFCA86801DBA83D500A0E279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFCA86861DBAD10E00A0E279 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		AFCA86881DBBFFC600A0E279 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				AFCA867D1DBA83D500A0E279 /* LaunchScreen.storyboard */,
 				AFCA86801DBA83D500A0E279 /* Info.plist */,
 				AFCA86861DBAD10E00A0E279 /* ProductViewController.swift */,
+				AFCA86881DBBFFC600A0E279 /* ContactViewController.swift */,
 			);
 			path = PrimeraApp;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				AFCA86871DBAD10E00A0E279 /* ProductViewController.swift in Sources */,
 				AFCA86751DBA83D500A0E279 /* AppDelegate.swift in Sources */,
+				AFCA86891DBBFFC600A0E279 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
