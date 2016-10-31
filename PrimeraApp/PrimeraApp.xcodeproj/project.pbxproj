@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF912C291DC5271D00C91EEC /* productTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF912C281DC5271D00C91EEC /* productTableViewController.swift */; };
+		AF912C2B1DC7B5F900C91EEC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF912C2A1DC7B5F900C91EEC /* Product.swift */; };
 		AFCA86751DBA83D500A0E279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA86741DBA83D500A0E279 /* AppDelegate.swift */; };
 		AFCA867A1DBA83D500A0E279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCA86781DBA83D500A0E279 /* Main.storyboard */; };
 		AFCA867C1DBA83D500A0E279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCA867B1DBA83D500A0E279 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF912C281DC5271D00C91EEC /* productTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = productTableViewController.swift; sourceTree = "<group>"; };
+		AF912C2A1DC7B5F900C91EEC /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		AFCA86711DBA83D500A0E279 /* PrimeraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFCA86741DBA83D500A0E279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFCA86791DBA83D500A0E279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				AFCA86801DBA83D500A0E279 /* Info.plist */,
 				AFCA86861DBAD10E00A0E279 /* ProductViewController.swift */,
 				AFCA86881DBBFFC600A0E279 /* ContactViewController.swift */,
+				AF912C281DC5271D00C91EEC /* productTableViewController.swift */,
+				AF912C2A1DC7B5F900C91EEC /* Product.swift */,
 			);
 			path = PrimeraApp;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 			files = (
 				AFCA86871DBAD10E00A0E279 /* ProductViewController.swift in Sources */,
 				AFCA86751DBA83D500A0E279 /* AppDelegate.swift in Sources */,
+				AF912C2B1DC7B5F900C91EEC /* Product.swift in Sources */,
+				AF912C291DC5271D00C91EEC /* productTableViewController.swift in Sources */,
 				AFCA86891DBBFFC600A0E279 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +309,7 @@
 				AFCA86851DBA83D500A0E279 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

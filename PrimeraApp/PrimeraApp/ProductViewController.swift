@@ -10,6 +10,7 @@ import UIKit
 
 class ProductViewController: UIViewController {
 
+    var producto:Product?
     
     @IBOutlet weak var productNameLabel: UILabel!
     @IBOutlet weak var productImageView: UIImageView!
@@ -18,8 +19,13 @@ class ProductViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        productNameLabel.text = "1937 Desk Phone"
-        productImageView.image = UIImage(named:"phone-fullscreen3")
+        if let p = producto{
+            productNameLabel.text = p.name
+            if let i = p.productImage{
+                productImageView.image = UIImage(named:i)
+            }
+        }
+        
         
     }
 
